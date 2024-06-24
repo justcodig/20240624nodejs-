@@ -1,0 +1,17 @@
+.seat{
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+    border-radius: 4px;
+}
+
+.line{
+    display: flex;
+}
+
+.seat.enable{
+    background-color: gray;
+}
+.seat.disable{
+    background-color: rgb(255, 0, 140);
+}
